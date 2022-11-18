@@ -1,0 +1,69 @@
+*{
+    font-family:"roboto";
+}
+.App{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dark{
+    background-image: radial-gradient(#2E4053, #000000 98% );
+}
+.light{
+    background-image: radial-gradient(#8CDEDA, #000000 98% );
+}
+
+.switch-outer{
+    width: 65px;
+    height: 140px;
+    
+    background-color: #455A54;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    filter:drop-shadow(5px 0px 5px white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    
+}
+.switch-inner{
+    width: 57px;
+    height: 80px;
+    border-top-left-radius: 34px;
+    border-top-right-radius: 34px;
+    border-bottom-left-radius: 34px;
+    border-bottom-right-radius: 34px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.on-icon-con{
+    background-image: linear-gradient(to top,#B9F9E8, #455A54);
+    height: 24px;
+    width: 24px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.onIcon{
+    height: 20px;
+    width: 20px;
+}
+.arrow{
+    height: 17px;
+    width:17px;
+}
