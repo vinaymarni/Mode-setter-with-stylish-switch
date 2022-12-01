@@ -9,7 +9,8 @@ function App() {
   const[upArrow, setUpArrow] = useState("block")
   const[downArrow, setDownArrow] = useState("none")
   const[mode, setMode] = useState("light")
-  
+
+
   const isSwitch = () => {
     setPosition(!position)
     if(position === true){
@@ -29,8 +30,9 @@ function App() {
     }
 
   }
-  return (
 
+
+  return (
     <div className= {`App ${mode}`} >   
       <img src="https://res.cloudinary.com/di01osmzz/image/upload/v1668837368/world-map_thhktd.png" alt="" />  
       <div className="switch-outer" style={{justifyContent: turn }}>
@@ -44,6 +46,7 @@ function App() {
         </div> 
         <img style={{display: downArrow, marginTop: "20px"}} className="arrow" src="https://res.cloudinary.com/di01osmzz/image/upload/v1668765857/fast-forward-double-right-arrows-symbol_2_kiup4n.png" alt="" />
       </div>
+     
     </div>
   );
 }
